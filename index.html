@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== FAVICON ===== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ============ FAV ICON ============= -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img//favicon-16x16.png">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
+    <link rel="mask-icon" href="assets/img//safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- ===== REMIX ICON ==== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ===== SWIPR CSS ====== -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- ====== CSS ====== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Canoa Tours & Trips</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"> 
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                BAYANSAG
+            </a>
+
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Acerda de</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Descubrir</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Destinos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img loading="lazy" src="assets/img/home1.png" alt="" class="home__img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <img loading="lazy" src="assets/img/logohome.png" alt="" class="home__logo">
+                    <br>
+                    <!-- <span class="home__data-subtitle">Descubre la magia del desierto</span> -->
+                    <h1 class="home__data-subtitle"> Descubre la magia del desierto</h1>
+                    <a href="#" class="button">Explorar</a>
+
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title"> Quienes Somos </h2>
+                    <p class="about__description">Nuestro objetivo es ofrecer experiencias de viaje increíbles. Disfruta de nuestros mejores tours y trekking en camello, excursiones de un día, visitas guiadas a ciudades imperiales y el increíble tour por el desierto donde podrás pasar una noche inolvidable.
+                    </p>
+                    <a href="#" class="button">Reservar</a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img loading="lazy" src="assets/img/home2.png" alt="" class="about__img-one">
+                    </div>
+
+                    <!-- <div class="about__img-overlay">
+                        <img src="assets/img/about2.png" alt="" class="about__img-two">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+ 
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section">
+            <div class="experience__data container grid">
+                <h2 class="section__title">Nuestra Experiencia</h2>
+                <p class="">BAYANSAG ofrece los mejores tours en el desierto. Si estás planeando unas vacaciones, somos el mejor lugar para pasar una experiencia inolvidable.
+                </p>            
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">5</h2>
+                            <span class="experience__description">Países Visitados</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">250</h2>
+                            <span class="experience__description">Tours Complatados</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">45</h2>
+                            <span class="experience__description">Destinos Turisticos</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        
+                        <div class="experience__overlay">
+                            <img loading="lazy" src="assets/img/experience1.png" alt="" class="experience__img-one">
+                        </div>
+
+                        <div class="experience__overlay">
+                            <img loading="lazy" src="assets/img/experience2.png" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== DISCOVER ====================-->
+        <section class="discover section" id="discover">
+            <h2 class="section__title">Descubre los lugares <br> más atractivos</h2>
+
+            <div class="discover__container container swiper-container">
+               
+                <div class="swiper-wrapper">
+                    <!--==================== DISCOVER 1 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img loading="lazy" src="assets/img/discover1.png" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Giza</h2>
+                            <span class="discover__description">12 Tours Disponibles</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 2 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img loading="lazy" src="assets/img/discover2.png" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Merzouga</h2>
+                            <span class="discover__description">9 Tours Disponibles</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 3 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img loading="lazy" src="assets/img/discover3.png" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Petra</h2>
+                            <span class="discover__description">5 Tours Disponibles</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 4 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img loading="lazy" src="assets/img/discover4.png" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Bayanzag</h2>
+                            <span class="discover__description">12 Tours Disponibles</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discover_arrow  arrow_l">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+
+                <div class="discover_arrow arrow_r ">
+                    <i class="ri-arrow-right-s-line"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PLACES ====================-->
+        <section class="place section experience__data container grid" id="place">
+            <h2 class="section__title">Elige tu destino</h2>
+            <p class="">Disfrute de nuestros mejores tours compartidos por el desierto y obtenga el beneficio de los mejores precios.
+            </p>
+
+            <div class="place__container container grid">
+                <!--==================== PLACES CARD 1 ====================-->
+                <div class="place__card">
+                    <img loading="lazy" src="assets/img/place1.png" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,9</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Petra</h3>
+                            <span class="place__subtitle">Jordan</span>
+                            <span class="place__price">$2,399</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 2 ====================-->
+                <div class="place__card">
+                    <img loading="lazy" src="assets/img/place2.png" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,9</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Giza</h3>
+                            <span class="place__subtitle">Egypt </span>
+                            <span class="place__price">$1,899</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 3 ====================-->
+                <div class="place__card">
+                    <img loading="lazy" src="assets/img/place3.png" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Bayansag</h3>
+                            <span class="place__subtitle">Mongolia</span>
+                            <span class="place__price">$2,599</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section" id="contact">
+            <div class="subscribe__bg">
+                <div class="subscribe__container ">
+                    <h2 class="section__title subscribe__title">Contactanos</h2>
+                    <p class="subscribe__description">Te aseguramos diversión, comodidad y una experiencia inolvidable.
+                    </p>
+
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="Nombre" class="subscribe__input">
+                        <br>
+                        <input type="text" placeholder="Email" class="subscribe__input">
+                        <br>
+                        <textarea name="" id="" cols="0" rows="5" placeholder="Mensaje"></textarea>
+                        <!-- <input type="text" placeholder="Mensaje" class="subscribe__input"> -->
+                        <br>
+
+                        <button class="button">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <a href="#" class="footer__subtitle"> 
+                        <!-- <img src="assets/img/logo.png" alt=""> -->
+                        <h3>
+                            BAYANSAG
+                        </h3>
+                    </a>
+                    <p class="footer__description">Tú eliges el
+                        destino, nosotros la experiencia.
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Acerca de</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Sobre nosotros</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Características</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Empresa</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Equipo</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Plan y Precios</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Hazte miembro</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Soporte</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Preguntas frecuentes</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Centro de Apoyo</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Contáctenos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2021 EduardoJmz. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!-- ====== SWIPER JS ====== -->
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- ===== MAIN JS ===== -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
